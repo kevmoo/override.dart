@@ -5,6 +5,3 @@ environment:
   sdk: '>=1.9.0 <2.0.0'
 dev_dependencies:
   unittest: any
-transformers:
-- $dart2js:
-    minify: false
