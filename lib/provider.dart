@@ -1,7 +1,9 @@
 library injection_fun;
 
+const String allowOverrideFlag = 'allow-override';
+
 const bool allowOverride =
-    const bool.fromEnvironment('allow-override', defaultValue: false);
+    const bool.fromEnvironment(allowOverrideFlag, defaultValue: false);
 
 abstract class Provider<T> {
   factory Provider(T value) {
@@ -45,6 +47,8 @@ class _FinalProvider<T> implements Provider<T> {
   _FinalProvider(this.value);
 
   void overrideValue(T value) {
-    throw new UnsupportedError('Cannot override this impl');
+    throw new UnsupportedError('Cannot override this implementation.'
+        ' You must set the "$allowOverrideFlag" Dart environment variable '
+        ' to the dart runtime or dart compiler via "-D${allowOverrideFlag}=true');
   }
 }
