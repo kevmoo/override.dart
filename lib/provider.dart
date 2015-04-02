@@ -1,7 +1,7 @@
 library injection_fun;
 
 const bool allowOverride =
-const bool.fromEnvironment('allow-override', defaultValue: false);
+    const bool.fromEnvironment('allow-override', defaultValue: false);
 
 abstract class Provider<T> {
   factory Provider(T value) {
@@ -19,7 +19,6 @@ abstract class Provider<T> {
 class _ProviderImpl<T> implements Provider<T> {
   bool _valueSet = false;
   T _value;
-
 
   _ProviderImpl(T value) : this._value = value;
 
