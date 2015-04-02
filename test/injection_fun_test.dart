@@ -3,7 +3,7 @@
 
 library injection_fun_test;
 
-import 'package:injection_fun/some_code.dart';
+import 'package:injection_fun/time_utils.dart';
 
 import 'package:unittest/unittest.dart';
 

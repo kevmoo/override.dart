@@ -1,4 +1,4 @@
-library things_manager;
+library package_providers;
 
 import 'clock.dart';
 import 'provider.dart';

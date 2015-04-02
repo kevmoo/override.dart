@@ -1,4 +1,6 @@
-import 'things_manager.dart';
+library time_utils;
+
+import 'package_providers.dart';
 
 Duration get timeSinceMidnight {
   var now = clockProvider.value.now;
