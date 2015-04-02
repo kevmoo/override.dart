@@ -48,7 +48,7 @@ class _FinalProvider<T> implements Provider<T> {
 
   void overrideValue(T value) {
     throw new UnsupportedError('Cannot override this implementation.'
-        ' You must set the "$allowOverrideFlag" Dart environment variable '
-        ' to the dart runtime or dart compiler via "-D${allowOverrideFlag}=true');
+        ' You must set the "$allowOverrideFlag" Dart environment variable to'
+        ' the dart runtime or dart compiler via "-D${allowOverrideFlag}=true');
   }
 }
