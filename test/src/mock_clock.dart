@@ -1,4 +1,4 @@
-import 'package:injection_fun/clock.dart';
+import 'package:override/clock.dart';
 
 import 'fake_stopwatch.dart';
 

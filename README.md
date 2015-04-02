@@ -1,3 +1,1 @@
-# injection_fun
-
-A minimal command-line application.
+### Thoughts on allowing efficient overriding of helpers in tests - EXPERIMENTAL

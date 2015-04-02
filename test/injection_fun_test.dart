@@ -1,10 +1,7 @@
-// Copyright (c) 2015, <your name>. All rights reserved. Use of this source code
-// is governed by a BSD-style license that can be found in the LICENSE file.
-
 library injection_fun_test;
 
-import 'package:injection_fun/time_utils.dart';
-import 'package:injection_fun/package_providers.dart';
+import 'package:override/time_utils.dart';
+import 'package:override/package_providers.dart';
 
 import 'package:unittest/unittest.dart';
 

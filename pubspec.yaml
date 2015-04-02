@@ -1,6 +1,6 @@
-name: injection_fun
+name: override
 version: 0.0.0-dev
-description: Thoughts on injection
+description: Thoughts on allowing efficient overriding of helpers in tests
 environment:
   sdk: '>=1.9.0 <2.0.0'
 dev_dependencies:
